@@ -1,9 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\",
+  "WorkspaceRootPath": "D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|c:\\a.tien\\github\\hero-adventure-game\\assets\\scripts\\enemypathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|d:\\fptu\\semester6\\pru212\\hero-adventure-game\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|d:\\fptu\\semester6\\pru212\\hero-adventure-game\\assets\\scripts\\knockback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\knockback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\assets\\scripts\\cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\assets\\scripts\\enemypathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemypathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,24 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Knockback.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\Knockback.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Knockback.cs",
+              "ToolTip": "D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\Knockback.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Knockback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:52:38.931Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
+              "ToolTip": "D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwC8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T04:48:32.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CameraMove.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\CameraMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraMove.cs",
+              "ToolTip": "D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\CameraMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraMove.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:45:44.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:23:58.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
+              "ToolTip": "D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyAI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T05:51:14.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "EnemyPathfinding.cs",
-              "DocumentMoniker": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\EnemyPathfinding.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\EnemyPathfinding.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyPathfinding.cs",
-              "ToolTip": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\EnemyPathfinding.cs",
+              "ToolTip": "D:\\FPTU\\Semester6\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\EnemyPathfinding.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyPathfinding.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T05:51:01.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T05:51:01.705Z"
             }
           ]
         }
