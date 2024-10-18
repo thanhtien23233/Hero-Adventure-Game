@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\",
+  "WorkspaceRootPath": "E:\\Study\\2024 Fall\\PRU212\\Hero-Adventure-Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|c:\\a.tien\\github\\hero-adventure-game\\assets\\scripts\\enemypathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemypathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|e:\\study\\2024 fall\\pru212\\hero-adventure-game\\assets\\scripts\\scene entry\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene entry\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|E:\\Study\\2024 Fall\\PRU212\\Hero-Adventure-Game\\assets\\scripts\\scene entry\\areaentrance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene entry\\areaentrance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|E:\\Study\\2024 Fall\\PRU212\\Hero-Adventure-Game\\assets\\scripts\\scene entry\\areaexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene entry\\areaexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|e:\\study\\2024 fall\\pru212\\hero-adventure-game\\assets\\scripts\\player controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|e:\\study\\2024 fall\\pru212\\hero-adventure-game\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,16 +38,90 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EnemyPathfinding.cs",
-              "DocumentMoniker": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\EnemyPathfinding.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyPathfinding.cs",
-              "ToolTip": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\EnemyPathfinding.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyPathfinding.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Player Controls.cs",
+              "DocumentMoniker": "E:\\Study\\2024 Fall\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\Player Controls.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Controls.cs",
+              "ToolTip": "E:\\Study\\2024 Fall\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\Player Controls.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Controls.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAUwEIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T05:51:01.705Z",
+              "WhenOpened": "2024-10-18T05:49:27.069Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SceneManagement.cs",
+              "DocumentMoniker": "E:\\Study\\2024 Fall\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\Scene Entry\\SceneManagement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scene Entry\\SceneManagement.cs",
+              "ToolTip": "E:\\Study\\2024 Fall\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\Scene Entry\\SceneManagement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scene Entry\\SceneManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T05:47:08.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "E:\\Study\\2024 Fall\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "E:\\Study\\2024 Fall\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T05:46:35.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AreaExit.cs",
+              "DocumentMoniker": "E:\\Study\\2024 Fall\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\Scene Entry\\AreaExit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scene Entry\\AreaExit.cs",
+              "ToolTip": "E:\\Study\\2024 Fall\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\Scene Entry\\AreaExit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scene Entry\\AreaExit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T05:15:47.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AreaEntrance.cs",
+              "DocumentMoniker": "E:\\Study\\2024 Fall\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\Scene Entry\\AreaEntrance.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scene Entry\\AreaEntrance.cs",
+              "ToolTip": "E:\\Study\\2024 Fall\\PRU212\\Hero-Adventure-Game\\Assets\\Scripts\\Scene Entry\\AreaEntrance.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scene Entry\\AreaEntrance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T05:01:20.665Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1170,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
