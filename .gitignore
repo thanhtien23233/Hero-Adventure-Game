@@ -9,4 +9,8 @@ UserSettings/
 Logs/
 
 #Ignore 
-Assembly-CSharp.csproj
+/Assembly-CSharp.csproj
+
+.vs/
+
+Temp/
