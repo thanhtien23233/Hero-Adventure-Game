@@ -8,6 +8,7 @@ public class Sword : MonoBehaviour
     [SerializeField] private GameObject slashAnimPrefab;
     [SerializeField] private Transform slashAnimSpawnPoint;
     [SerializeField] private Transform weaponCollider;
+     
     private PlayerControls playerControls;
     private Animator myAnimator;
     private PlayerController playerController;
@@ -87,12 +88,12 @@ public class Sword : MonoBehaviour
         if (mousePos.x < playerScreenPoint.x)
         {
             activeWeapon.transform.rotation = Quaternion.Euler(0, -180, angle);
-            //weaponCollider.transform.rotation = Quaternion.Euler(0, -180, 0);
+            weaponCollider.transform.rotation = Quaternion.Euler(0, -180, 0);
         }
         else
         {
             activeWeapon.transform.rotation = Quaternion.Euler(0, 0, angle);
-            //weaponCollider.transform.rotation = Quaternion.Euler(0, 0, 0);
+            weaponCollider.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
     }
 

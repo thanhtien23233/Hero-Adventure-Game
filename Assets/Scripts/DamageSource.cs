@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DamageSource : MonoBehaviour
 {
-    //private int damageAmount;
+    [SerializeField] private int damageAmount = 1;
 
     //private void Start()
     //{
@@ -14,12 +14,11 @@ public class DamageSource : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.GetComponent<EnemyAI>())
+        if (other.gameObject.GetComponent<EnemyHealth>())
         {
-            Debug.Log("AAA");
+            EnemyHealth enemyHealth = other.gameObject.GetComponent<EnemyHealth>();
+            enemyHealth.TakeDamage(damageAmount);
         }
-        //EnemyHealth enemyHealth = other.gameObject.GetComponent<EnemyHealth>();
-        //enemyHealth?.TakeDamage(damageAmount);
     }
 
 }
