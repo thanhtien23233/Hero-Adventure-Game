@@ -9,7 +9,6 @@ UserSettings/
 Logs/
 
 #Ignore
-.vs/
 
 Temp/
 Assembly-CSharp.csproj
