@@ -8,9 +8,10 @@ UserSettings/
 # Ignore Logs folder
 Logs/
 
-#Ignore 
-/Assembly-CSharp.csproj
-
+#Ignore
 .vs/
 
 Temp/
+Assembly-CSharp.csproj
+
+
