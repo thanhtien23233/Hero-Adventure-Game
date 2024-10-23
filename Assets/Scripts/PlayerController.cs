@@ -1,39 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class PlayerController : Singleton<PlayerController>
+public class PlayerController : MonoBehaviour
 {
-    public bool FacingLeft { get { return facingLeft; } }
+    public static PlayerController Instance { get; private set; }
+    public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
 
 
     [SerializeField] private float moveSpeed = 1f;
-    [SerializeField] private float dashSpeed = 4f;
-    [SerializeField] private TrailRenderer myTrailRenderer;
 
     private PlayerControls playerControls;
     private Vector2 movement;
     private Rigidbody2D rb;
+
     private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
-    private float startingMoveSpeed;
 
     private bool facingLeft = false;
     private bool isDashing = false;
 
-    protected override void Awake()
+    private void Awake()
     {
-        base.Awake();
-
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
         mySpriteRender = GetComponent<SpriteRenderer>();
-    }
-
-    private void Start()
-    {
-        startingMoveSpeed = moveSpeed;
     }
 
     private void OnEnable()
@@ -55,14 +48,13 @@ public class PlayerController : Singleton<PlayerController>
     private void PlayerInput()
     {
         movement = playerControls.Movement.Move.ReadValue<Vector2>();
-
         myAnimator.SetFloat("moveX", movement.x);
         myAnimator.SetFloat("moveY", movement.y);
     }
 
     private void Move()
     {
-        rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
+        rb.MovePosition(rb.position + movement * (moveSpeed * Time.deltaTime));
     }
 
     private void AdjustPlayerFacingDirection()
@@ -82,25 +74,4 @@ public class PlayerController : Singleton<PlayerController>
         }
     }
 
-    private void Dash()
-    {
-        if (!isDashing)
-        {
-            isDashing = true;
-            moveSpeed *= dashSpeed;
-            myTrailRenderer.emitting = true;
-            StartCoroutine(EndDashRoutine());
-        }
-    }
-
-    private IEnumerator EndDashRoutine()
-    {
-        float dashTime = .2f;
-        float dashCD = .25f;
-        yield return new WaitForSeconds(dashTime);
-        moveSpeed = startingMoveSpeed;
-        myTrailRenderer.emitting = false;
-        yield return new WaitForSeconds(dashCD);
-        isDashing = false;
-    }
 }

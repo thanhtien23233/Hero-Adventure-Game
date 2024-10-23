@@ -18373,11 +18373,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 497256925497350845, guid: cfd0453bb1a022544ac1939be5eab85c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.579899
+      value: 24.76175
       objectReference: {fileID: 0}
     - target: {fileID: 497256925497350845, guid: cfd0453bb1a022544ac1939be5eab85c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.0545297
+      value: 6.06066
       objectReference: {fileID: 0}
     - target: {fileID: 497256925497350845, guid: cfd0453bb1a022544ac1939be5eab85c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18414,6 +18414,14 @@ PrefabInstance:
     - target: {fileID: 709787014305412760, guid: cfd0453bb1a022544ac1939be5eab85c, type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 925322430373059043, guid: cfd0453bb1a022544ac1939be5eab85c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.78825
+      objectReference: {fileID: 0}
+    - target: {fileID: 925322430373059043, guid: cfd0453bb1a022544ac1939be5eab85c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1693401
       objectReference: {fileID: 0}
     - target: {fileID: 3661089539343407021, guid: cfd0453bb1a022544ac1939be5eab85c, type: 3}
       propertyPath: _target
@@ -18693,8 +18701,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
-  deathVFXPrefab: {fileID: 0}
-  knockBackThrust: 15
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
