@@ -6,17 +6,18 @@ public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] private int startingHealth = 1;
     //[SerializeField] private GameObject deathVFXPrefab;
-    //[SerializeField] private float knockBackThrust = 15f;
+    [SerializeField] private float knockBackThrust = 15f;
 
     private int currentHealth;
-    //private Knockback knockback;
-    //private Flash flash;
+    private bool canTakeDamage = true;
+    private Knockback knockback;
+    private Flash flash;
 
-    //private void Awake()
-    //{
-    //    //flash = GetComponent<Flash>();
-    //    knockback = GetComponent<Knockback>();
-    //}
+    private void Awake()
+    {
+        flash = GetComponent<Flash>();
+        knockback = GetComponent<Knockback>();
+    }
 
     private void Start()
     {
@@ -26,18 +27,18 @@ public class EnemyHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        Debug.Log(currentHealth);
+        Debug.Log(currentHealth);      
+        knockback.GetKnockedBack(PlayerController.Instance.transform, 15f);
+        StartCoroutine(flash.FlashRoutine());
         DetectDeath();
-        //knockback.GetKnockedBack(PlayerController.Instance.transform, knockBackThrust);
-        //StartCoroutine(flash.FlashRoutine());
-        //StartCoroutine(CheckDetectDeathRoutine());
     }
 
-    //private IEnumerator CheckDetectDeathRoutine()
-    //{
-    //    //yield return new WaitForSeconds(flash.GetRestoreMatTime());
-    //    DetectDeath();
-    //}
+
+    private IEnumerator CheckDetectDeathRoutine()
+    {
+        yield return new WaitForSeconds(flash.GetRestoreMatTime());
+        DetectDeath();
+    }
 
     public void DetectDeath()
     {

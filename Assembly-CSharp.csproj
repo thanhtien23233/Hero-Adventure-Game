@@ -61,19 +61,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Scene Entry\AreaExit.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyChase.cs" />
     <Compile Include="Assets\Scripts\Scene Entry\SceneManagement.cs" />
-    <Compile Include="Assets\Scripts\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\CameraMove.cs" />
+    <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\DamageSource.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Knockback.cs" />
+    <Compile Include="Assets\Scripts\Misc\Knockback.cs" />
     <Compile Include="Assets\Scripts\ActiveWeapon.cs" />
     <Compile Include="Assets\Scripts\SlashAnim.cs" />
-    <Compile Include="Assets\Scripts\EnemyPathfinding.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyPathfinding.cs" />
     <Compile Include="Assets\Scripts\Scene Entry\Singleton.cs" />
-    <Compile Include="Assets\Scripts\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Sword.cs" />
     <Compile Include="Assets\Scripts\Player Controls.cs" />
+    <Compile Include="Assets\Scripts\Misc\Flash.cs" />
     <Compile Include="Assets\Scripts\Scene Entry\AreaEntrance.cs" />
   </ItemGroup>
   <ItemGroup>

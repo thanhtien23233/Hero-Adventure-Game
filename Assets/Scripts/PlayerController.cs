@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public static PlayerController Instance { get; private set; }
+    public static PlayerController Instance;
     public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
 
 
@@ -17,16 +17,19 @@ public class PlayerController : MonoBehaviour
 
     private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
+    private Knockback knockback;
 
     private bool facingLeft = false;
     //private bool isDashing = false;
 
     private void Awake()
     {
+        Instance = this;
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
         mySpriteRender = GetComponent<SpriteRenderer>();
+        knockback = GetComponent<Knockback>();
     }
 
     private void OnEnable()
@@ -54,6 +57,7 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
+        if (knockback.GettingKnockedBack) { return; }
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.deltaTime));
     }
 

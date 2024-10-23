@@ -5,7 +5,9 @@ using UnityEngine;
 public class SceneManagement : Singleton<SceneManagement>
 {
     public string SceneTransitionName { get; private set; }
-
+    [SerializeField] private GameObject enemyParent; 
+    [SerializeField] private GameObject exitObject;
+    private bool exitActivated = false;
     public void SetTransitionName(string sceneTransitionName) {
         this.SceneTransitionName = sceneTransitionName;
     }
@@ -27,5 +29,24 @@ public class SceneManagement : Singleton<SceneManagement>
         {
             Debug.LogError("Level Canvas not found in the scene!");
         }
-    }    
+    }
+    void Update()
+    {
+        // Check if enemyParent has any children (enemies)
+        if (enemyParent.transform.childCount == 0 && !exitActivated)
+        {
+            // If there are no more enemies, activate the exit
+            ActivateExit();
+        }
+    }
+
+    private void ActivateExit()
+    {
+        if (exitObject != null)
+        {
+            exitObject.SetActive(true);
+            exitActivated = true;  // Mark exit as activated to prevent repeated activation
+            Debug.Log("Exit activated!");
+        }
+    }
 }
