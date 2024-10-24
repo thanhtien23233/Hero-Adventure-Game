@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\ActiveWeapon.cs" />
     <Compile Include="Assets\Scripts\SlashAnim.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyPathfinding.cs" />
+    <Compile Include="Assets\Scripts\Menu Manager.cs" />
     <Compile Include="Assets\Scripts\Scene Entry\Singleton.cs" />
     <Compile Include="Assets\Scripts\Sword.cs" />
     <Compile Include="Assets\Scripts\Player Controls.cs" />
@@ -95,7 +96,9 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Sprites\Complete_UI_Essential_Pack_Free\Thank You for Purchasing!.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Sprites\Complete_UI_Essential_Pack_Free\License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
