@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
@@ -9,14 +10,14 @@ public class EnemyHealth : MonoBehaviour
     //[SerializeField] private float knockBackThrust = 15f;
 
     private int currentHealth;
-    //private Knockback knockback;
+    private Knockback knockback;
     //private Flash flash;
 
-    //private void Awake()
-    //{
-    //    //flash = GetComponent<Flash>();
-    //    knockback = GetComponent<Knockback>();
-    //}
+    private void Awake()
+    {
+        //flash = GetComponent<Flash>();
+        knockback = GetComponent<Knockback>();
+    }
 
     private void Start()
     {
@@ -26,7 +27,8 @@ public class EnemyHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        Debug.Log(currentHealth);
+        //Debug.Log(currentHealth);
+        knockback.GetKnockedBack(PlayerController.Instance.transform, 15f);
         DetectDeath();
         //knockback.GetKnockedBack(PlayerController.Instance.transform, knockBackThrust);
         //StartCoroutine(flash.FlashRoutine());
