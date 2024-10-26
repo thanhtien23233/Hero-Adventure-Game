@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private float knockBackThrustAmount = 10f;
     [SerializeField] private float damageRecoveryTime = 1f;
     [SerializeField] private GameObject gameOverCanvas;
+    [SerializeField] private Slider healthBar;
+
 
     private int currentHealth;
     private bool canTakeDamage = true;
@@ -30,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
         if (enemy && canTakeDamage) {
             TakeDamage(1);
             knockback.GetKnockedBack(other.gameObject.transform, knockBackThrustAmount);
-            StartCoroutine(flash.FlashRoutine());
+            StartCoroutine(flash.FlashRoutine());          
         }
     }
 
@@ -38,6 +41,7 @@ public class PlayerHealth : MonoBehaviour
         canTakeDamage = false;
         Debug.Log("Current Health: " + currentHealth);
         currentHealth -= damageAmount;
+        healthBar.value = currentHealth;
         DetectDeath();
         StartCoroutine(DamageRecoveryRoutine());
     }
@@ -56,7 +60,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (currentHealth <= 0)
         {
-            currentHealth = 0; // Ensure health does not go below zero
+            currentHealth = 4; // Ensure health does not go below zero
             ShowGameOver(); // Call to show the Game Over canvas
         }
     }

@@ -25,7 +25,9 @@ public class ButtonManager : MonoBehaviour
         // Get the current active scene
         Scene currentScene = SceneManager.GetActiveScene();
 
+
         // Reload the current scene
         SceneManager.LoadScene(currentScene.name);
+        Time.timeScale = 1f;
     }
 }
