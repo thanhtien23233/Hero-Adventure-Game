@@ -329,7 +329,7 @@ Transform:
   m_GameObject: {fileID: 7409708970801307984}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 26.97, y: 1.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -444,6 +444,7 @@ MonoBehaviour:
   maxHealth: 3
   knockBackThrustAmount: 10
   damageRecoveryTime: 1
+  gameOverCanvas: {fileID: 0}
 --- !u!95 &851623052489114794
 Animator:
   serializedVersion: 5

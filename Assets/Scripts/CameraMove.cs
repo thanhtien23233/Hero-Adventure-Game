@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
-public class CameraMove : Singleton<CameraMove> {
+public class CameraMove : MonoBehaviour{
+    public static CameraMove Instance { get; private set; }
+
     public float damping = 1.5f;
     public Transform _target;
     public CinemachineVirtualCamera cinemachineVirtualCamera;
@@ -13,12 +15,25 @@ public class CameraMove : Singleton<CameraMove> {
     private float dynamicSpeed;
     private Camera _cam;
 
+    public void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject); 
+            return;
+        }
+    }
     void Start()
     {
         transform.position = new Vector3(_target.position.x, _target.position.y, _target.position.z);
         offset = new Vector2(Mathf.Abs(offset.x), offset.y);
         FindPlayer();
         _cam = gameObject.GetComponent<Camera>();
+
     }
     public void SetPlayerCameraFollow()
     {

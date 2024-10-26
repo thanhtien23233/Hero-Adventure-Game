@@ -9,7 +9,6 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private float knockBackThrust = 15f;
 
     private int currentHealth;
-    private bool canTakeDamage = true;
     private Knockback knockback;
     private Flash flash;
 
