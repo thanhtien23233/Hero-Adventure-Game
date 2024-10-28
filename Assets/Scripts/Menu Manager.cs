@@ -9,7 +9,8 @@ public class MenuManager : MonoBehaviour
     public void StartGame()
     {
         // Load scene 1 (replace "Scene1" with your actual scene name)
-        SceneManager.LoadScene("Scene1");
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Map1");
     }
 
     // Function for How to Play button
