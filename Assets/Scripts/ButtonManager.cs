@@ -10,7 +10,7 @@ public class ButtonManager : MonoBehaviour
     public void MainMenu()
     {
         // Load scene 1 (replace "Scene1" with your actual scene name)
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Menu");
     }
 
     // Function for How to Play button

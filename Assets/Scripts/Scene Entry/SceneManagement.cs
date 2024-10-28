@@ -9,7 +9,8 @@ public class SceneManagement : MonoBehaviour
     [SerializeField] private GameObject enemyParent;
     [SerializeField] private GameObject exitObject;
     [SerializeField] private GameObject levelCanvas;
-    [SerializeField] private GameObject pauseMenu;  
+    [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject levelClear;
     private bool isPaused = false;
     private bool exitActivated = false;
     public void Awake()
@@ -26,8 +27,12 @@ public class SceneManagement : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-            Debug.Log("Pause Hidden");
-            pauseMenu.SetActive(false);
+        Debug.Log("Exit Hidden");
+        exitObject.SetActive(false);
+        Debug.Log("Pause Hidden");
+        pauseMenu.SetActive(false);
+        Debug.Log("Clear Level Hidden");
+        levelClear.SetActive(false);
     }
 
     void Update()
@@ -41,7 +46,8 @@ public class SceneManagement : MonoBehaviour
         // Check if enemyParent has any children (enemies)
         if (enemyParent.transform.childCount == 0 && !exitActivated)
         {
-            // If there are no more enemies, activate the exit
+            levelClear.SetActive(true);
+            ActivateLevelClearWithDelay();
             ActivateExit();
         }
     }
@@ -67,7 +73,10 @@ public class SceneManagement : MonoBehaviour
     {
         StartCoroutine(ActivateLevelCanvasAfterDelay(2f));
     }
-
+    public void ActivateLevelClearWithDelay()
+    {
+        StartCoroutine(DeActivateLevelClearAfterDelay(2f));
+    }
     private IEnumerator ActivateLevelCanvasAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
@@ -75,6 +84,15 @@ public class SceneManagement : MonoBehaviour
         {
             levelCanvas.SetActive(false);
             Debug.Log("Level Canvas deactivated after 2 seconds!");
+        }
+    }
+    private IEnumerator DeActivateLevelClearAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        if (levelClear != null)
+        {
+            levelClear.SetActive(false);
+            Debug.Log("Level Clear deactivated!");
         }
     }
 
