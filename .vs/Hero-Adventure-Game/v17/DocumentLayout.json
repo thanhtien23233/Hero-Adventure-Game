@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|c:\\a.tien\\github\\hero-adventure-game\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|c:\\a.tien\\github\\hero-adventure-game\\assets\\scripts\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|c:\\a.tien\\github\\hero-adventure-game\\assets\\scripts\\enemypathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemypathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|c:\\a.tien\\github\\hero-adventure-game\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|C:\\a.Tien\\Github\\Hero-Adventure-Game\\assets\\scripts\\scene entry\\areaentrance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene entry\\areaentrance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|c:\\a.tien\\github\\hero-adventure-game\\assets\\scripts\\scene entry\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene entry\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|C:\\a.Tien\\Github\\Hero-Adventure-Game\\assets\\scripts\\cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EnemyAI.cs",
-              "DocumentMoniker": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\EnemyAI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
-              "ToolTip": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\EnemyAI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyAI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Sword.cs",
+              "DocumentMoniker": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\Sword.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Sword.cs",
+              "ToolTip": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\Sword.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Sword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T05:51:14.657Z",
+              "WhenOpened": "2024-10-23T02:14:54.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EnemyPathfinding.cs",
-              "DocumentMoniker": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\EnemyPathfinding.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyPathfinding.cs",
-              "ToolTip": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\EnemyPathfinding.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyPathfinding.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T05:51:01.705Z",
+              "WhenOpened": "2024-10-23T02:09:06.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CameraMove.cs",
+              "DocumentMoniker": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\CameraMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraMove.cs",
+              "ToolTip": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\CameraMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraMove.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:07:26.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SceneManagement.cs",
+              "DocumentMoniker": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\Scene Entry\\SceneManagement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scene Entry\\SceneManagement.cs",
+              "ToolTip": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\Scene Entry\\SceneManagement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scene Entry\\SceneManagement.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:02:51.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AreaEntrance.cs",
+              "DocumentMoniker": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\Scene Entry\\AreaEntrance.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scene Entry\\AreaEntrance.cs",
+              "ToolTip": "C:\\a.Tien\\Github\\Hero-Adventure-Game\\Assets\\Scripts\\Scene Entry\\AreaEntrance.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scene Entry\\AreaEntrance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T05:01:20.665Z",
               "EditorCaption": ""
             }
           ]
