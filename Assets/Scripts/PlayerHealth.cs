@@ -45,6 +45,12 @@ public class PlayerHealth : MonoBehaviour
         DetectDeath();
         StartCoroutine(DamageRecoveryRoutine());
     }
+
+    public void KnockBack(Collider2D other)
+    {
+        knockback.GetKnockedBack(other.gameObject.transform, knockBackThrustAmount);
+        StartCoroutine(flash.FlashRoutine());
+    }
     private IEnumerator CheckDetectDeathRoutine()
     {
         yield return new WaitForSeconds(flash.GetRestoreMatTime());
@@ -70,4 +76,5 @@ public class PlayerHealth : MonoBehaviour
         Time.timeScale = 0f; // Stop the game
         // Optional: you can disable player controls or other elements here
     }
+
 }
