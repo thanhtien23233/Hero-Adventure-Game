@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class EnemyCounter : MonoBehaviour
 {
     public Text enemyCountText; // Reference to the Text UI element
-    public Transform enemyParent; // Reference to the Enemy parent GameObject
+    [SerializeField] Transform enemyParent; // Reference to the Enemy parent GameObject
 
     void Update()
     {

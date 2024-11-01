@@ -12,6 +12,10 @@ public class SceneManagement : MonoBehaviour
     [SerializeField] private GameObject levelCanvas;
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject levelClear;
+    [SerializeField] private GameObject notification;
+    [SerializeField] private GameObject mapObject;
+    [SerializeField] private GameObject mapBorder;
+    [SerializeField] private GameObject activeWeapon;
     private bool isPaused = false;
     private bool exitActivated = false;
     public void Awake()
@@ -28,31 +32,28 @@ public class SceneManagement : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        Debug.Log("Exit Hidden");
         exitObject.SetActive(false);
-        Debug.Log("Pause Hidden");
         pauseMenu.SetActive(false);
-        Debug.Log("Clear Level Hidden");
         levelClear.SetActive(false);
+        notification.SetActive(false);
     }
 
     void Update()
     {
-        // Check if the Escape key is pressed
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Debug.Log("Pressed Escape");
             TogglePause();
         }
-        // Check if enemyParent has any children (enemies)
         if (enemyParent.transform.childCount == 0 && !exitActivated)
         {
             levelClear.SetActive(true);
-            
+            activeWeapon.SetActive(true);
             Scene currentScene = SceneManager.GetActiveScene();
-            if (currentScene.name == "Map3")
+            if (currentScene.name == "MapFinal")
             {
                 Time.timeScale = 0;
+                activeWeapon.SetActive(false);
                 levelClear.SetActive(true);
             }
             else
@@ -64,17 +65,25 @@ public class SceneManagement : MonoBehaviour
     }
     private void TogglePause()
     {
-        // Toggle the pause state
         isPaused = !isPaused;
 
-        // Show or hide the pause menu
         if (pauseMenu != null)
         {
             pauseMenu.SetActive(isPaused);
+            activeWeapon.SetActive(!isPaused);
         }
         levelCanvas.SetActive(false);
-        // Pause or unpause the game
-        Time.timeScale = isPaused ? 0f : 1f;  // 0 pauses, 1 resumes normal speed
+        levelClear.SetActive(false);
+        notification.SetActive(false);
+        
+        Time.timeScale = isPaused ? 0f : 1f; 
+    }
+
+    public IEnumerator ShowNotification()
+    {
+        notification.SetActive(true);
+        yield return new WaitForSeconds(2);
+        notification.SetActive(false);
     }
     public void SetTransitionName(string sceneTransitionName)
     {
@@ -111,8 +120,10 @@ public class SceneManagement : MonoBehaviour
     {
         if (exitObject != null)
         {
+            mapObject.SetActive(false);
+            mapBorder.SetActive(false);
             exitObject.SetActive(true);
-            exitActivated = true;  // Mark exit as activated to prevent repeated activation
+            exitActivated = true;
             Debug.Log("Exit activated!");
         }
     }

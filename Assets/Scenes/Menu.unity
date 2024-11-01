@@ -513,8 +513,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -171.9}
-  m_SizeDelta: {x: 1281.78, y: 343.8}
+  m_AnchoredPosition: {x: 0.0000019073, y: -171.9}
+  m_SizeDelta: {x: 1315.55, y: 343.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &379993228
 MonoBehaviour:
@@ -549,8 +549,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.4
-  m_Text: "hero adventure have 3 levels. \nyou have to clear all enimies in each
-    to process next level. \nfinal challenge is a boss. defeat it to win."
+  m_Text: "\u2022 hero adventure have 3 levels. \n\u2022 you have to clear all enimies
+    in each to process next level. \n\u2022final challenge is a boss. defeat it to
+    win."
 --- !u!222 &379993229
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -717,8 +718,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -135.15, y: 179.39}
-  m_SizeDelta: {x: 270.31, y: 289.22}
+  m_AnchoredPosition: {x: -398.97, y: 194.49}
+  m_SizeDelta: {x: 797.92, y: 259.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &915426459
 MonoBehaviour:
@@ -747,7 +748,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 60
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1944,8 +1945,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 348, y: 179.39}
-  m_SizeDelta: {x: 483.86, y: 289.22}
+  m_AnchoredPosition: {x: 380.91, y: 194.49002}
+  m_SizeDelta: {x: 761.82, y: 259.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1938660675
 MonoBehaviour:
@@ -1974,7 +1975,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 60
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
