@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] private int maxHealth = 3;
-    [SerializeField] private float knockBackThrustAmount = 10f;
-    [SerializeField] private float damageRecoveryTime = 1f;
+    [SerializeField] private int maxHealth;
+    [SerializeField] private float knockBackThrustAmount;
+    [SerializeField] private float damageRecoveryTime;
     [SerializeField] private GameObject gameOverCanvas;
     [SerializeField] private Slider healthBar;
 
@@ -24,7 +24,15 @@ public class PlayerHealth : MonoBehaviour
     }
 
     private void Start() {
-        currentHealth = maxHealth;
+        if (DataToKeep.CurrentHealth > 0)
+        {
+            currentHealth = DataToKeep.CurrentHealth;
+        }
+        else
+        {
+            currentHealth = maxHealth;
+        }
+        healthBar.value = currentHealth;
     }
 
     private void OnCollisionStay2D(Collision2D other) {
@@ -41,6 +49,8 @@ public class PlayerHealth : MonoBehaviour
         canTakeDamage = false;
         Debug.Log("Current Health: " + currentHealth);
         currentHealth -= damageAmount;
+        DataToKeep.CurrentHealth = currentHealth;
+        Debug.Log(DataToKeep.CurrentHealth);
         healthBar.value = currentHealth;
         DetectDeath();
         StartCoroutine(DamageRecoveryRoutine());

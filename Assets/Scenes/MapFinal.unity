@@ -5128,11 +5128,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3103865139879061453, guid: f50294e5b6e040f4c8dbf1ef702637c3, type: 3}
       propertyPath: m_Value
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3103865139879061453, guid: f50294e5b6e040f4c8dbf1ef702637c3, type: 3}
       propertyPath: m_MaxValue
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3103865139879061453, guid: f50294e5b6e040f4c8dbf1ef702637c3, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
@@ -41975,11 +41975,11 @@ PrefabInstance:
       objectReference: {fileID: 2079575777}
     - target: {fileID: 7089202060995279656, guid: ee8f855305f017c42bba47e243aa3dff, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7089202060995279656, guid: ee8f855305f017c42bba47e243aa3dff, type: 3}
       propertyPath: distanceBetween
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7590590131370680880, guid: ee8f855305f017c42bba47e243aa3dff, type: 3}
       propertyPath: enemyType
@@ -41987,7 +41987,7 @@ PrefabInstance:
       objectReference: {fileID: 851743464}
     - target: {fileID: 7590590131370680880, guid: ee8f855305f017c42bba47e243aa3dff, type: 3}
       propertyPath: attackRange
-      value: 50
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7935753244199740706, guid: ee8f855305f017c42bba47e243aa3dff, type: 3}
       propertyPath: m_Color.b
@@ -42055,10 +42055,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 6812577644503739327, guid: 049e73b2c0d465445abdee6edc74477d, type: 3}
-  bulletMoveSpeed: 6
-  burstCount: 5
-  timeBetweenBurst: 0.3
-  restTime: 0.5
+  bulletMoveSpeed: 20
+  burstCount: 3
+  timeBetweenBurst: 0.7
+  restTime: 0
 --- !u!210 &851743473
 SortingGroup:
   m_ObjectHideFlags: 0
