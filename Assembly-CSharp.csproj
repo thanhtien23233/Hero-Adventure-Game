@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Scene Entry\AreaExit.cs" />
+    <Compile Include="Assets\Scripts\MapBounds.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyChase.cs" />
     <Compile Include="Assets\Scripts\Scene Entry\SceneManagement.cs" />
@@ -74,12 +75,16 @@
     <Compile Include="Assets\Scripts\ActiveWeapon.cs" />
     <Compile Include="Assets\Scripts\SlashAnim.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyPathfinding.cs" />
+    <Compile Include="Assets\Scripts\Enemy\IEnemy.cs" />
     <Compile Include="Assets\Scripts\Menu Manager.cs" />
     <Compile Include="Assets\Scripts\Scene Entry\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyCounter.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Projectile.cs" />
     <Compile Include="Assets\Scripts\Sword.cs" />
     <Compile Include="Assets\Scripts\Player Controls.cs" />
     <Compile Include="Assets\Scripts\Misc\Flash.cs" />
     <Compile Include="Assets\Scripts\Scene Entry\AreaEntrance.cs" />
+    <Compile Include="Assets\Scripts\Enemy\BossAttack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
