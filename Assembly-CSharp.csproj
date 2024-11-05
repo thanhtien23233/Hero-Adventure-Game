@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
     <Compile Include="Assets\Scripts\CameraMove.cs" />
+    <Compile Include="Assets\Scripts\DataToKeep.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\DamageSource.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets\Scripts\Scene Entry\Singleton.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyCounter.cs" />
     <Compile Include="Assets\Scripts\Enemy\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Tutorial.cs" />
     <Compile Include="Assets\Scripts\Sword.cs" />
     <Compile Include="Assets\Scripts\Player Controls.cs" />
     <Compile Include="Assets\Scripts\Misc\Flash.cs" />
