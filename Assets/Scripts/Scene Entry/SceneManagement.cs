@@ -16,11 +16,14 @@ public class SceneManagement : MonoBehaviour
     [SerializeField] private GameObject mapObject;
     [SerializeField] private GameObject mapBorder;
     [SerializeField] private GameObject activeWeapon;
+    [SerializeField] private GameObject? attackTutorial;
+
     private bool isPaused = false;
     private bool exitActivated = false;
     public void Awake()
     {
         ActivateLevelCanvasWithDelay();
+
         //CameraMove.Instance.SetPlayerCameraFollow();
         //CameraMove.Instance.AssignCameraBounds();
         if (Instance == null)
@@ -31,6 +34,11 @@ public class SceneManagement : MonoBehaviour
         {
             Destroy(gameObject);
             return;
+        }
+       
+        if (attackTutorial != null)
+        {
+            attackTutorial.SetActive(false);
         }
         exitObject.SetActive(false);
         pauseMenu.SetActive(false);
@@ -50,6 +58,11 @@ public class SceneManagement : MonoBehaviour
             levelClear.SetActive(true);
             activeWeapon.SetActive(true);
             Scene currentScene = SceneManager.GetActiveScene();
+            if (currentScene.name == "Tutorial")
+            {
+                attackTutorial.SetActive(false);
+                levelClear.SetActive(true);
+            }
             if (currentScene.name == "MapFinal")
             {
                 Time.timeScale = 0;

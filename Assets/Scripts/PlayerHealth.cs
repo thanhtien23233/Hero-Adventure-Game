@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
@@ -18,6 +19,10 @@ public class PlayerHealth : MonoBehaviour
     private Flash flash;
 
     private void Awake() {
+        if (SceneManager.GetActiveScene().name == "Map1")
+        {
+            DataToKeep.CurrentHealth = 10;
+        }
         flash = GetComponent<Flash>();
         knockback = GetComponent<Knockback>();
         gameOverCanvas.SetActive(false);
@@ -76,7 +81,8 @@ public class PlayerHealth : MonoBehaviour
     {
         if (currentHealth <= 0)
         {
-            currentHealth = 4; // Ensure health does not go below zero
+            currentHealth = 10; // Ensure health does not go below zero
+            DataToKeep.CurrentHealth = 10;
             ShowGameOver(); // Call to show the Game Over canvas
         }
     }
