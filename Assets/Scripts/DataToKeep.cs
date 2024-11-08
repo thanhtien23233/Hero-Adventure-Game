@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class DataToKeep : MonoBehaviour
 {
-    public static int CurrentHealth = 4;
+    public static int CurrentHealth = 10;
 }

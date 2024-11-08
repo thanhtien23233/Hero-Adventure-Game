@@ -35,13 +35,13 @@ public class Projectile : MonoBehaviour
     {
         
         PlayerHealth player = other.gameObject.GetComponent<PlayerHealth>();
-
         if (!other.isTrigger && player)
         {
             player.TakeDamage(1);
             player.KnockBack(other);
             Destroy(gameObject);
         }
+
     }
 
     private void DetectFireDistance()

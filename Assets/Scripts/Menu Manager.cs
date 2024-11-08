@@ -10,7 +10,7 @@ public class MenuManager : MonoBehaviour
     {
         // Load scene 1 (replace "Scene1" with your actual scene name)
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Map1");
+        SceneManager.LoadScene("Tutorial");
     }
 
     // Function for How to Play button

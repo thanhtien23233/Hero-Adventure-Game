@@ -17746,6 +17746,10 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: -0.07645798
       objectReference: {fileID: 0}
+    - target: {fileID: 5881571117095547509, guid: 407dc93bef7ef0240839b0eb21e1fbdc, type: 3}
+      propertyPath: sceneToLoad
+      value: Map1
+      objectReference: {fileID: 0}
     - target: {fileID: 8431189707773966691, guid: 407dc93bef7ef0240839b0eb21e1fbdc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 35.035694
