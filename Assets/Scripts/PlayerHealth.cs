@@ -11,6 +11,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private float damageRecoveryTime;
     [SerializeField] private GameObject gameOverCanvas;
     [SerializeField] private Slider healthBar;
+    [SerializeField] private GameObject activceWeapon;
 
 
     private int currentHealth;
@@ -83,6 +84,7 @@ public class PlayerHealth : MonoBehaviour
         {
             currentHealth = 10; // Ensure health does not go below zero
             DataToKeep.CurrentHealth = 10;
+            activceWeapon.SetActive(false);
             ShowGameOver(); // Call to show the Game Over canvas
         }
     }

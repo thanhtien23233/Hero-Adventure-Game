@@ -17,6 +17,7 @@ public class SceneManagement : MonoBehaviour
     [SerializeField] private GameObject mapBorder;
     [SerializeField] private GameObject activeWeapon;
     [SerializeField] private GameObject? attackTutorial;
+    [SerializeField] private GameObject? gameOver;
 
     private bool isPaused = false;
     private bool exitActivated = false;
@@ -88,7 +89,7 @@ public class SceneManagement : MonoBehaviour
         levelCanvas.SetActive(false);
         levelClear.SetActive(false);
         notification.SetActive(false);
-        
+        gameOver.SetActive(false);
         Time.timeScale = isPaused ? 0f : 1f; 
     }
 

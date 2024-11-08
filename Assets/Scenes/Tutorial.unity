@@ -4715,6 +4715,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5758733089877168553, guid: 933cbcbf839f99844adfbf950818e887, type: 3}
+      propertyPath: gameOver
+      value: 
+      objectReference: {fileID: 586838140}
+    - target: {fileID: 5758733089877168553, guid: 933cbcbf839f99844adfbf950818e887, type: 3}
       propertyPath: mapBorder
       value: 
       objectReference: {fileID: 6759018006920883723}
@@ -18063,12 +18067,16 @@ PrefabInstance:
       objectReference: {fileID: 501042551}
     - target: {fileID: 3699411271446645936, guid: 2b0d8b31e39720445842f9ed6a70f43f, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3699411271446645936, guid: 2b0d8b31e39720445842f9ed6a70f43f, type: 3}
       propertyPath: maxHealth
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3699411271446645936, guid: 2b0d8b31e39720445842f9ed6a70f43f, type: 3}
+      propertyPath: activceWeapon
+      value: 
+      objectReference: {fileID: 1941739632}
     - target: {fileID: 3699411271446645936, guid: 2b0d8b31e39720445842f9ed6a70f43f, type: 3}
       propertyPath: gameOverCanvas
       value: 

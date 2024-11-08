@@ -4580,7 +4580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1118742834502860274, guid: f50294e5b6e040f4c8dbf1ef702637c3, type: 3}
       propertyPath: m_SortingOrder
-      value: 39
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1235623805978680839, guid: f50294e5b6e040f4c8dbf1ef702637c3, type: 3}
       propertyPath: m_AnchorMax.x
@@ -5482,6 +5482,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5758733089877168553, guid: 933cbcbf839f99844adfbf950818e887, type: 3}
+      propertyPath: gameOver
+      value: 
+      objectReference: {fileID: 586838140}
     - target: {fileID: 5758733089877168553, guid: 933cbcbf839f99844adfbf950818e887, type: 3}
       propertyPath: mapBorder
       value: 
@@ -43743,6 +43747,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3699411271446645936, guid: 2b0d8b31e39720445842f9ed6a70f43f, type: 3}
+      propertyPath: activceWeapon
+      value: 
+      objectReference: {fileID: 5034729767270170873}
     - target: {fileID: 3699411271446645936, guid: 2b0d8b31e39720445842f9ed6a70f43f, type: 3}
       propertyPath: gameOverCanvas
       value: 
