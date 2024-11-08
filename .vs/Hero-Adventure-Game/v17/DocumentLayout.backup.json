@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Bi\\FPT\\Sem7\\PRU212\\Group_Assignment_Repo\\Hero-Adventure-Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|d:\\bi\\fpt\\sem7\\pru212\\group_assignment_repo\\hero-adventure-game\\assets\\scripts\\enemy\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|d:\\bi\\fpt\\sem7\\pru212\\group_assignment_repo\\hero-adventure-game\\assets\\scripts\\enemy\\bossattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\bossattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|d:\\bi\\fpt\\sem7\\pru212\\group_assignment_repo\\hero-adventure-game\\assets\\scripts\\enemy\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|d:\\bi\\fpt\\sem7\\pru212\\group_assignment_repo\\hero-adventure-game\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D81FE342-C20D-0154-38FF-5BE580499067}|Assembly-CSharp.csproj|D:\\Bi\\FPT\\Sem7\\PRU212\\Group_Assignment_Repo\\Hero-Adventure-Game\\assets\\scripts\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,19 +139,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "D:\\Bi\\FPT\\Sem7\\PRU212\\Group_Assignment_Repo\\Hero-Adventure-Game\\Assets\\Scripts\\Enemy\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyAI.cs",
+              "ToolTip": "D:\\Bi\\FPT\\Sem7\\PRU212\\Group_Assignment_Repo\\Hero-Adventure-Game\\Assets\\Scripts\\Enemy\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyAI.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T05:04:40.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "D:\\Bi\\FPT\\Sem7\\PRU212\\Group_Assignment_Repo\\Hero-Adventure-Game\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "D:\\Bi\\FPT\\Sem7\\PRU212\\Group_Assignment_Repo\\Hero-Adventure-Game\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwDIAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T04:31:17.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "D:\\Bi\\FPT\\Sem7\\PRU212\\Group_Assignment_Repo\\Hero-Adventure-Game\\Assets\\Scripts\\Enemy\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Projectile.cs",
+              "ToolTip": "D:\\Bi\\FPT\\Sem7\\PRU212\\Group_Assignment_Repo\\Hero-Adventure-Game\\Assets\\Scripts\\Enemy\\Projectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Projectile.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwCkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T03:22:25.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BossAttack.cs",
               "DocumentMoniker": "D:\\Bi\\FPT\\Sem7\\PRU212\\Group_Assignment_Repo\\Hero-Adventure-Game\\Assets\\Scripts\\Enemy\\BossAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\BossAttack.cs",
               "ToolTip": "D:\\Bi\\FPT\\Sem7\\PRU212\\Group_Assignment_Repo\\Hero-Adventure-Game\\Assets\\Scripts\\Enemy\\BossAttack.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\BossAttack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T02:45:39.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Sword.cs",
               "DocumentMoniker": "D:\\Bi\\FPT\\Sem7\\PRU212\\Group_Assignment_Repo\\Hero-Adventure-Game\\Assets\\Scripts\\Sword.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Sword.cs",
@@ -151,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Bi\\FPT\\Sem7\\PRU212\\Group_Assignment_Repo\\Hero-Adventure-Game\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -163,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "CameraMove.cs",
               "DocumentMoniker": "D:\\Bi\\FPT\\Sem7\\PRU212\\Group_Assignment_Repo\\Hero-Adventure-Game\\Assets\\Scripts\\CameraMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraMove.cs",
@@ -175,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "SceneManagement.cs",
               "DocumentMoniker": "D:\\Bi\\FPT\\Sem7\\PRU212\\Group_Assignment_Repo\\Hero-Adventure-Game\\Assets\\Scripts\\Scene Entry\\SceneManagement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene Entry\\SceneManagement.cs",
@@ -187,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AreaEntrance.cs",
               "DocumentMoniker": "D:\\Bi\\FPT\\Sem7\\PRU212\\Group_Assignment_Repo\\Hero-Adventure-Game\\Assets\\Scripts\\Scene Entry\\AreaEntrance.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene Entry\\AreaEntrance.cs",

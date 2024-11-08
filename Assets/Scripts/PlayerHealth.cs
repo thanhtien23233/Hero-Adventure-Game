@@ -12,6 +12,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private GameObject gameOverCanvas;
     [SerializeField] private Slider healthBar;
     [SerializeField] private GameObject activceWeapon;
+    [SerializeField] private GameObject? attackTutorial;
 
 
     private int currentHealth;
